@@ -1,0 +1,93 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9; /* Light gray background for simplicity */
+  }
+  
+  /* To-Do Container Styling */
+  .todo-container {
+    background: #ffffff; /* White card background */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  /* Header */
+  .todo-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+  }
+  
+  /* Input Section */
+  .input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-section input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .input-section input:focus {
+    outline: none;
+    border-color: #5a67d8; /* Blue border on focus */
+  }
+  
+  .input-section button {
+    padding: 10px 15px;
+    background-color: #5a67d8; /* Vibrant blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-section button:hover {
+    background-color: #434190; /* Darker blue */
+  }
+  
+  /* Task List */
+  #taskList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background: #eef3fc; /* Light blue background for tasks */
+    border-radius: 5px;
+  }
+  
+  #taskList li button {
+    background: #e74c3c; /* Red delete button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #taskList li button:hover {
+    background: #c0392b; /* Darker red */
+  }
+  
